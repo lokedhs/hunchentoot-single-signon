@@ -1,6 +1,6 @@
 (asdf:defsystem hunchentoot-single-signon
   :name "hunchentoot-single-signon"
-  :author "Elias Martenson <elias.martenson@murex.com>"
+  :author "Elias Martenson <lokedhs@gmail.com>"
   :license "BSD"
   :description "Implementation of SPNEGO authentication for Hunchentoot"
   :depends-on (:hunchentoot
