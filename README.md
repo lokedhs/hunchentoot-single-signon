@@ -4,7 +4,7 @@ hunchentoot-single-signon
 This package implements SPNEGO implementation for Hunchentoot.
 
   - Author: Elias Martenson
-  - email: lokedhs@gmail.com
+  - Email: lokedhs@gmail.com
 
 The main dependency is on the package cl-gss, which uses is an FFI
 wrapper around the GSSAPI library.
