@@ -44,5 +44,5 @@ When enabling single sign-on, the content should look like this:
 
 The callback is called with an instance of `CL-GSS:NAME` which can be
 used for authorisation. You can retrieve the name of the princpial
-using the function `CL-GSS:NAME-TO-STRING`. Check the CL-GSS package
+using the function `CL-GSS:NAME-TO-STRING`. Check the cl-gss package
 for further information.
