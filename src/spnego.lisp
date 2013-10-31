@@ -14,8 +14,8 @@ If given, FAILED-AUTH-FN is a function that will be called when
 authentication fails. Note that before this function is called, the
 return code has already been set to the correct value and should not
 be changed. The purpose of this function is to provide a more useful
-error message, and also possibly display a normal login and password
-form to provide some alternate login method."
+error message, and also possibly display a normal username and
+password form."
   (labels ((failed-auth ()
              (setf (hunchentoot:return-code*) hunchentoot:+http-authorization-required+)
              (if failed-auth-fn
